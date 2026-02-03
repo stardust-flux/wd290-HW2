@@ -8,8 +8,7 @@ nav {
     border-bottom: 2px solid #333;
     color: #fff;
     padding: 10px 20px;
-    align-items: center;
-    justify-content: stretch;
+    align-items: baseline;
 }
 
 body {
@@ -54,6 +53,7 @@ h1, h2, h3 {
     margin-top: 5rem;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .artist-grid {
