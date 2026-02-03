@@ -85,6 +85,12 @@ h1, h2, h3 {
     overflow: hidden;
 }
 
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .visit-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -100,4 +106,31 @@ h1, h2, h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
+}
+
+@media (max-width: 600px) {
+    .artist-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .overview {
+        grid-template-columns: 1fr;
+    }
+
+    .visit-info {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        max-width: 95px;
+        
+    }
 }
