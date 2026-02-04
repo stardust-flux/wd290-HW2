@@ -263,6 +263,7 @@ h3 {
     grid-template-rows: auto auto;
 }
 
+
 @media (max-width: 600px) {
     .artist-grid {
         grid-template-columns: 1fr;
