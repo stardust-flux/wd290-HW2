@@ -9,14 +9,28 @@
 </head>
 
 <body>
-    <nav>
+    
+    <header>
+    <div class="container nav">
         <img class="logo" src="images/FAM-25th-Lockups_Border-w-Dates-Full-Color.jpg" alt="Website Logo" />
-        <a href="#overview">Exhibition Overview</a>
-        <a href="#artists">Featured Artists</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#visit">Visit</a>
-        <a href="#socials">Contact</a>
-    </nav>
+      <input type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="hamburger" aria-hidden="true" title="Menu" aria-controls="primary-menu">
+        <span class="top"></span>
+        <span class="mid"></span>
+        <span class="bot"></span>
+      </label>
+      <nav aria-label="Primary">
+        <ul id="primary-menu">
+          <li><a href="#overview">Exhibition Overview</a></li>
+          <li><a href="#artists">Featured Artists</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#visit">Visit</a></li>
+          <li><a href="#socials">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+
     <hero class="hero">
         <div class="hero-inner">
             <div>  
